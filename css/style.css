@@ -1,0 +1,75 @@
+/*  Reseteo de espacios a los lados*/
+/* *{
+    marging:0;
+    padding:0;
+}
+*/
+
+html {
+    font: size 62.5%;
+}
+
+header {
+    background-color: black;
+    padding: 2rem;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+
+.navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:  2.5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+h1 {
+    color: rgb(158, 150, 150);
+    text-align: center;
+ }
+ 
+
+p {
+    color: gray;
+    line-height: 1.6;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* Estilos para class*/ 
+/* Las class siempre se indican con un punto antes del nombre*/
+
+
+
+
+footer {
+    background-color: rgb(56, 55, 55);
+}
+
+/* Estilos para IDs*/
+/* Los IDs siempre se indican con un #*/
+/* ul li { color: red; }
+   ol li { color: blue; }
+   forma semanticamente correcta*/
+
+/* Fin estilos index*/ 
+/* Es mejor un solo archivo css por ahora*/
+
+/* Estilos Nosotros*/
+
+ 
